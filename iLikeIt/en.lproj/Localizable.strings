@@ -7,5 +7,5 @@
 */
 
 " Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
-"You like?" = "You like?";
-"imageName" = "ilike";
+"You like?" = " You like?";
+" imageName" = "ilike";

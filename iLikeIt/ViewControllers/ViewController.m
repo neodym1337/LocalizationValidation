@@ -24,7 +24,7 @@
     NSString *numberString = [numberFormatter stringFromNumber:@(1000000)];
     _salesCountLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Yesterday you sold %@ apps", nil), numberString];
     
-    [_likeButton setTitle:NSLocalizedString(@"You like?", nil) forState:UIControlStateNormal];
+    [_likeButton setTitle:@"Test" forState:UIControlStateNormal];
     [_imageView setImage:[UIImage imageNamed:NSLocalizedString(@"imageName", nil)]];
 }
 

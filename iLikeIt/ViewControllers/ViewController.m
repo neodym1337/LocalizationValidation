@@ -21,7 +21,7 @@
     
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
-    NSString *numberString = [numberFormatter stringFromNumber:@(1000000)];
+    NSString *numberString = [numberFormatter stringFromNumber:@(1000)];
     _salesCountLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Yesterday you sold %@ apps", nil), numberString];
     
     [_likeButton setTitle:@"Test" forState:UIControlStateNormal];

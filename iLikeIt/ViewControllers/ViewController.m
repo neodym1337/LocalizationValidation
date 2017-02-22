@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <NEOStringFormatter.h>
+
 
 @interface ViewController ()
 @property (nonatomic, weak) IBOutlet UIButton *likeButton;
@@ -19,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"%@", [NEOStringFormatter testString]);
+    
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
     NSString *numberString = [numberFormatter stringFromNumber:@(1000)];
@@ -26,6 +30,7 @@
     
     [_likeButton setTitle:@"Test" forState:UIControlStateNormal];
     [_imageView setImage:[UIImage imageNamed:NSLocalizedString(@"imageName", nil)]];
+    
 }
 
 - (IBAction)youLikeButtonPressed:(id)sender {

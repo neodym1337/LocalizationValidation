@@ -9,7 +9,7 @@ target 'iLikeIt' do
   # use_frameworks!
 
   # Pods for iLikeIt
-  pod 'NEOTestPod'
+  pod 'NEOTestPod', '0.0.10'
 
   target 'iLikeItTests' do
     inherit! :search_paths

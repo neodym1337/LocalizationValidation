@@ -14,5 +14,9 @@
     return @"Test";
 }
 
++(NSString *)testString2 {
+    return @"Test2";
+}
+
 @end
 

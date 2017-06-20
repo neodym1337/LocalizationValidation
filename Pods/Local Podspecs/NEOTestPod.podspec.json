@@ -1,0 +1,25 @@
+{
+  "name": "NEOTestPod",
+  "version": "0.0.11",
+  "summary": "Private cocoapod.",
+  "description": "Objective-C template test pod.",
+  "homepage": "https://github.com/neodym1337",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hosk, Johan": "johan@hosk.com"
+  },
+  "source": {
+    "git": "https://github.com/neodym1337/NEOTestPod.git",
+    "tag": "0.0.11"
+  },
+  "source_files": "Classes/*.{h,m}",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

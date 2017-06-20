@@ -1,1 +1,1 @@
-../../../NEOTestPod/Classes/NEOStringFormatter.h
+../../../../../NEOTestPod/Classes/NEOStringFormatter.h

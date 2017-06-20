@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07249C8C986BB30297F1BA7BB056F2A8 /* NEOStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 949E118EEB4CDE57D2C41E3AB3B457D5 /* NEOStringFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		15933E137088E4BD02A0AEADCFB72FF0 /* NEOTestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0723CA34C1DA53BABBC15BAB2CE9392 /* NEOTestPod-dummy.m */; };
-		1B77646B97D3FFE2967F23DF59F1C8A4 /* NEOStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A0D88E8EF0937B54135B8AF11B6864 /* NEOStringFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43121E969467C2560DC923187B88BC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6D2AC5B339B57354B7CE087CB08B00BF /* Pods-iLikeItTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD303F0A9BA148204BC523D7FD565D /* Pods-iLikeItTests-dummy.m */; };
 		755268A58C0284AAE70D92DC1DC03F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		776C209D02CD83A2B9018119D9EB6C4D /* NEOStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 861C2ACBC54EF9A93F252EFEBD04B862 /* NEOStringFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C8F34EF17E97825B4FC81C138966E3 /* Pods-iLikeIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B0BA9E75F80CA5E3EC3D9B0F199DD /* Pods-iLikeIt-dummy.m */; };
 		C73CB3BF1C1D72FA78212B7309B389E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB78B977B948174057BA44556F6DC533 /* NEOStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DE10A850093A1B16CD124301247482 /* NEOStringFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FF262B0FF6AD42514CC6679317C5F6DF /* NEOTestPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0B24BB8AC5304F5E544C7BDBA33E2 /* NEOTestPod-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +28,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01768C285EBAB125497727FEB90C8D3E /* NEOTestPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NEOTestPod-prefix.pch"; sourceTree = "<group>"; };
 		0CC8C10BA2B4CE07CAFFA86ED2A78EC8 /* Pods-iLikeItTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLikeItTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1AAFF047544432A3466A83F5317C25EB /* Pods-iLikeIt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iLikeIt-resources.sh"; sourceTree = "<group>"; };
 		38B3450045064AB6D53AF86872216CA3 /* Pods-iLikeIt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLikeIt-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DB24A299B96C4F01246B312B1A8F9EC /* Pods-iLikeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLikeIt.debug.xcconfig"; sourceTree = "<group>"; };
 		440A7BF0250B9E2EF8597D8F6882CB4A /* libPods-iLikeIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iLikeIt.a"; path = "libPods-iLikeIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525518B83AB497798725AD1689B402AE /* Pods-iLikeItTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iLikeItTests-resources.sh"; sourceTree = "<group>"; };
+		53B9F3597E86C35862D25160D78E1DA5 /* NEOTestPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NEOTestPod-prefix.pch"; sourceTree = "<group>"; };
 		62935719EF9BFEE37C9631C377FEB4B4 /* Pods-iLikeIt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iLikeIt-acknowledgements.markdown"; sourceTree = "<group>"; };
 		69A301FE7D921BAFF1E8ACF40A73CF68 /* Pods-iLikeItTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iLikeItTests-frameworks.sh"; sourceTree = "<group>"; };
 		6A1B0BA9E75F80CA5E3EC3D9B0F199DD /* Pods-iLikeIt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLikeIt-dummy.m"; sourceTree = "<group>"; };
 		732B6B2141110119F6A7D45DE6EB82A2 /* Pods-iLikeItTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iLikeItTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		89A0D88E8EF0937B54135B8AF11B6864 /* NEOStringFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NEOStringFormatter.h; path = Classes/NEOStringFormatter.h; sourceTree = "<group>"; };
+		861C2ACBC54EF9A93F252EFEBD04B862 /* NEOStringFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NEOStringFormatter.h; sourceTree = "<group>"; };
 		8DDD303F0A9BA148204BC523D7FD565D /* Pods-iLikeItTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iLikeItTests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		949E118EEB4CDE57D2C41E3AB3B457D5 /* NEOStringFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NEOStringFormatter.m; path = Classes/NEOStringFormatter.m; sourceTree = "<group>"; };
+		99D0B24BB8AC5304F5E544C7BDBA33E2 /* NEOTestPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NEOTestPod-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEFEAE95A344B36981B0D9BA0AEA528E /* NEOTestPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NEOTestPod.xcconfig; sourceTree = "<group>"; };
+		CDF2102994FA612181EFC73EB0A77CEB /* NEOTestPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NEOTestPod.xcconfig; sourceTree = "<group>"; };
 		CF8C2BA5EDCF70AB5A535A92BC2D339B /* Pods-iLikeIt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iLikeIt-frameworks.sh"; sourceTree = "<group>"; };
-		D0723CA34C1DA53BABBC15BAB2CE9392 /* NEOTestPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NEOTestPod-dummy.m"; sourceTree = "<group>"; };
+		D1DE10A850093A1B16CD124301247482 /* NEOStringFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NEOStringFormatter.m; sourceTree = "<group>"; };
 		DE41F7D0385A13DD47B76B070429560E /* libNEOTestPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNEOTestPod.a; path = libNEOTestPod.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC0461AC4F961D744FC6AC623A2AFCB /* libPods-iLikeItTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iLikeItTests.a"; path = "libPods-iLikeItTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95668B4ABA9705F18144B74DFD5583A /* Pods-iLikeIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iLikeIt.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +97,16 @@
 			path = "Target Support Files/Pods-iLikeItTests";
 			sourceTree = "<group>";
 		};
+		2C61C9F76C4062A07E9B04A83F7BC786 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				861C2ACBC54EF9A93F252EFEBD04B862 /* NEOStringFormatter.h */,
+				D1DE10A850093A1B16CD124301247482 /* NEOStringFormatter.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3A117178EBA6F67FFE0B26DD9CB2A151 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,27 @@
 			path = "Target Support Files/Pods-iLikeIt";
 			sourceTree = "<group>";
 		};
+		5EE77F4C63E6EA37C6CE1DA150B865DF /* NEOTestPod */ = {
+			isa = PBXGroup;
+			children = (
+				2C61C9F76C4062A07E9B04A83F7BC786 /* Classes */,
+				61B0C56971D6773FF335DB05ADD9CCF3 /* Support Files */,
+			);
+			name = NEOTestPod;
+			path = ../../NEOTestPod;
+			sourceTree = "<group>";
+		};
+		61B0C56971D6773FF335DB05ADD9CCF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2102994FA612181EFC73EB0A77CEB /* NEOTestPod.xcconfig */,
+				99D0B24BB8AC5304F5E544C7BDBA33E2 /* NEOTestPod-dummy.m */,
+				53B9F3597E86C35862D25160D78E1DA5 /* NEOTestPod-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../LocalizationValidation/Pods/Target Support Files/NEOTestPod";
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,41 +174,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B4112C04C154E3F4E0B94AD82240A447 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8DAEDCDF1FF120D44CB8DED204EA0140 /* Pods */,
 				7D6B1833C381CE29CC5506C4C4D536FE /* Products */,
 				3A117178EBA6F67FFE0B26DD9CB2A151 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87CAAE13D601868C27F06F98A1927697 /* NEOTestPod */ = {
+		B4112C04C154E3F4E0B94AD82240A447 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89A0D88E8EF0937B54135B8AF11B6864 /* NEOStringFormatter.h */,
-				949E118EEB4CDE57D2C41E3AB3B457D5 /* NEOStringFormatter.m */,
-				B5BD4DBFBBD468F5AE42EAAE3C30C43C /* Support Files */,
+				5EE77F4C63E6EA37C6CE1DA150B865DF /* NEOTestPod */,
 			);
-			name = NEOTestPod;
-			path = NEOTestPod;
-			sourceTree = "<group>";
-		};
-		8DAEDCDF1FF120D44CB8DED204EA0140 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				87CAAE13D601868C27F06F98A1927697 /* NEOTestPod */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B5BD4DBFBBD468F5AE42EAAE3C30C43C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEFEAE95A344B36981B0D9BA0AEA528E /* NEOTestPod.xcconfig */,
-				D0723CA34C1DA53BABBC15BAB2CE9392 /* NEOTestPod-dummy.m */,
-				01768C285EBAB125497727FEB90C8D3E /* NEOTestPod-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NEOTestPod";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -191,11 +200,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5E006C3E2A8462340B230E76F91FE959 /* Headers */ = {
+		D85EB48348801220D68E0038B8FB20EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B77646B97D3FFE2967F23DF59F1C8A4 /* NEOStringFormatter.h in Headers */,
+				776C209D02CD83A2B9018119D9EB6C4D /* NEOStringFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +215,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725EFE17F3B38EA146DE4CCCC3E1EFD5 /* Build configuration list for PBXNativeTarget "NEOTestPod" */;
 			buildPhases = (
-				B0DE928E81D28EA6E414ACC3217D8DC8 /* Sources */,
+				E9EC4B02D4A22CDE30B72869D6B88773 /* Sources */,
 				BD00F3E7829BF8E719B55A7D3166DE6F /* Frameworks */,
-				5E006C3E2A8462340B230E76F91FE959 /* Headers */,
+				D85EB48348801220D68E0038B8FB20EF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -297,12 +306,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0DE928E81D28EA6E414ACC3217D8DC8 /* Sources */ = {
+		E9EC4B02D4A22CDE30B72869D6B88773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07249C8C986BB30297F1BA7BB056F2A8 /* NEOStringFormatter.m in Sources */,
-				15933E137088E4BD02A0AEADCFB72FF0 /* NEOTestPod-dummy.m in Sources */,
+				CB78B977B948174057BA44556F6DC533 /* NEOStringFormatter.m in Sources */,
+				FF262B0FF6AD42514CC6679317C5F6DF /* NEOTestPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +352,7 @@
 		};
 		166119EAAB20E809C8AA4D79E5CA99AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFEAE95A344B36981B0D9BA0AEA528E /* NEOTestPod.xcconfig */;
+			baseConfigurationReference = CDF2102994FA612181EFC73EB0A77CEB /* NEOTestPod.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,7 +505,7 @@
 		};
 		F2BFC854E74A139A7A48B8B7D64D0F84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFEAE95A344B36981B0D9BA0AEA528E /* NEOTestPod.xcconfig */;
+			baseConfigurationReference = CDF2102994FA612181EFC73EB0A77CEB /* NEOTestPod.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
